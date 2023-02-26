@@ -37,9 +37,12 @@ body {
 
 img#Foto{
   background-image: -moz-element(left);
-  height: 300px;
-  float: right;
+  height: 200px;
+  float: left;
+  margin-top: 30px;
+  margin-left: 110px;
   }
+
 
 button{
   height: 75px;
@@ -57,9 +60,10 @@ button{
 }
 
 body{
-  height: 100%; 
-  font-family: 'Noto Sans', sans-serif;
-  background-color: #7eee16; 
+  background-image: url(fondo2.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 1360px 3750px;
 }
 
 
@@ -69,6 +73,12 @@ p#Titulo{
   font-weight: bold; 
   text-decoration: underline;
 
+}
+
+p#Titulo2{
+  font-size: 25px;
+  text-align: center;
+   
 }
 
 p#Contenido{
@@ -89,6 +99,7 @@ h2{
   font-size: 55px;
   text-align: center;
   margin-top: 70px;
+  color: blue;
   }
 
 h1{
@@ -134,16 +145,20 @@ path {
 }
 
 .Indice{
-  position: fixed;
-  background: #53caee repeat scroll 0 0;
-  display: table;
-  border-radius: 20px;
+ position: fixed;
+ background: #53caee repeat scroll 0 0;
+ display: table;
+ border-radius: 20px;
  font-size: 25;
  bottom: 20px;
  left:20px;
  text-align: center;
  font-weight: bold;
  border-bottom-style: groove;
+ background-color: rgb(37, 202, 243);
+ border-color: rgb(12, 0, 0);
+ border-style: solid;
+ border-width: 4px;
 }
 
   
